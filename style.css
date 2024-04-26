@@ -3,3 +3,119 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .header1{
+    display: flex;
+    background-image: url(./images/header-img_mecare.png);
+    /* background-color: rgba(0, 255, 255, 0.478); */
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 600px;
+    width: 1500px;
+    margin-top: 90px;
+    justify-content: center;
+  
+  }
+  .btn_learn{
+    background-color: rgba(0, 0, 255, 0.375);
+    box-shadow: 3px 4px 15px #3FB0CEA6;
+    padding: 14px 15px 14px 30px;
+    width: 176px;
+    color: whitesmoke;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+  
+}
+  .header1_text h1{
+    color: rgba(0, 0, 0, 0.327);
+    font-size: 50px;
+    padding-right: 500px;
+    
+  }
+  .header1_text p{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.327);
+    padding-right: 500px;
+  }
+  .header2{
+    
+    
+  }
+  .form1{
+    display: flex;
+   width: 80%;
+   margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .form1 input{
+    border-radius: 8px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #4A5764;
+    font-style: normal;
+
+  }
+  .form1 input,.form1 button{
+    width: 100%;
+  }
+  .see_doctor{
+    overflow-y: auto;
+    display: inline-block;
+  }
+  .submit{
+    border-radius: 10px;
+    line-height: 40px;
+    font-size: 20px;
+     background-color: rgba(0, 0, 255, 0.422);
+  }
+  .header3{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 400px;
+  }
+  .text_holder h2{
+    font-size: 20px;
+    color: rgb(154,143,184);
+  }
+.text_holder h2{
+  font-size: 60px;
+  color: #4A5764;
+
+}
+.text_holder p{
+  font-size: 15px;
+}
+.text_holder_header4{
+  display: flex;
+  text-align: center;
+  gap: 120px;
+  width: 100%;
+  height: 300px;
+  padding-left: 200px;
+  margin-top: 20px;
+}
+.header5{
+  background-image: url(./images/illustration_img.png);
+  height: 500px;
+  background-position:left;
+  background-repeat: no-repeat;
+}
+.text_holder_header5{
+  padding-left: 1000px;
+}
+.text_holder_header5 h2{
+  font-size: 50px;
+}
+.text_holder_header5{
+  font-size: 15px;
+}
